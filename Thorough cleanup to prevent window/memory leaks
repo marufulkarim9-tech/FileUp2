@@ -1,0 +1,14 @@
+        removeBubble()
+        removeExpanded()
+        serviceScope.cancel()
+        lifecycleOwner.onDestroy()
+        super.onDestroy()
+    }
+
+    companion object {
+        private const val NOTIFICATION_ID = 42
+    }
+}
+```
+
+#### Overlay UI
