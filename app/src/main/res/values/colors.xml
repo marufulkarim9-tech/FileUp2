@@ -1,7 +1,4 @@
-```xml
+xml
 <resources>
     <color name="ic_launcher_bg">#0B0E14</color>
 </resources>
-```
-
-#### Application & theme

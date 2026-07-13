@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.viewmodel
 
 import android.app.Application
@@ -60,6 +60,3 @@ class MainViewModel(app: Application) : AndroidViewModel(app) {
 
     fun consumeToast() = _state.update { it.copy(toast = null) }
 }
-```
-
-#### Mind map UI

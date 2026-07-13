@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.ui.toolbar
 
 import androidx.compose.foundation.layout.*
@@ -86,6 +86,3 @@ fun UtilityToolbar(
         }
     }
 }
-```
-
-#### Main activity

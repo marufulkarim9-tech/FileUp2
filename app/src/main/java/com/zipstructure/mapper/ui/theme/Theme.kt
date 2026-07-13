@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.ui.theme
 
 import androidx.compose.material3.MaterialTheme
@@ -22,6 +22,3 @@ private val DarkScheme = darkColorScheme(
 fun ZipMapperTheme(content: @Composable () -> Unit) {
     MaterialTheme(colorScheme = DarkScheme, typography = AppTypography, content = content)
 }
-```
-
-#### Data layer

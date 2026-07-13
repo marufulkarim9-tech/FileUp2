@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper
 
 import android.content.Intent
@@ -162,6 +162,3 @@ private fun startBubble(context: android.content.Context) {
     if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.O) context.startForegroundService(intent)
     else context.startService(intent)
 }
-```
-
-#### Overlay infrastructure

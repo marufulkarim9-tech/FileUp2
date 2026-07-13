@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.ui.overlay
 
 import androidx.compose.foundation.ExperimentalFoundationApi
@@ -207,7 +207,7 @@ private fun FileRow(file: File, selected: Boolean, onClick: () -> Unit, onLongCl
         if (selected) Icon(Icons.Filled.CheckCircle, "Selected", tint = NeonCyan, modifier = Modifier.size(18.dp))
     }
 }
-```
+
 
 That's the full project: 30 files covering Gradle setup, manifest with all four permission groups (with API-level scoping), the ZIP parsing engine, the zoomable bezier mind map with capture-to-gallery via `GraphicsLayer`, the utility toolbar (search, sort, export, copy as markdown/tree text), the `specialUse` foreground service with `WindowManager` overlay, spring snap-to-edge bubble, focus-flag switching for keyboard input when expanded, storage-root discovery, multi-select with `DRAG_FLAG_GLOBAL` drag-and-drop through `FileProvider`, the in-overlay auto-dismissing toast, and full cleanup in `onDestroy`.
 

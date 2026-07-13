@@ -1,3 +1,4 @@
+xml
 <resources>
     <style name="Theme.ZipStructureMapper" parent="android:Theme.Material.NoActionBar">
         <item name="android:windowBackground">#0B0E14</item>

@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.data
 
 import android.content.Context
@@ -72,6 +72,3 @@ object ZipParser {
             if (idx >= 0 && c.moveToFirst()) c.getString(idx) else null
         }
 }
-```
-
-#### Utilities

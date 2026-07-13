@@ -1,4 +1,4 @@
-```kotlin
+kotlin
 package com.zipstructure.mapper.util
 
 import android.content.Context
@@ -27,6 +27,3 @@ object StorageRoots {
         return roots
     }
 }
-```
-
-#### ViewModel

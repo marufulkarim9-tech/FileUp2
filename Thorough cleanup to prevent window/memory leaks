@@ -9,6 +9,3 @@
         private const val NOTIFICATION_ID = 42
     }
 }
-```
-
-#### Overlay UI
